@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li,a,ul{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    padding: 0 30px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mylogo{
+
+}
+.nav_text{
+    display: flex;
+    gap: 15px;
+}
+.icon_contanier{
+    display: flex;
+    gap: 20px;
+
+}

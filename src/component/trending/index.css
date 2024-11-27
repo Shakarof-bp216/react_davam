@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.linediv{
+    height: 2px;
+    background-color: black;
+    width: 100px;
+}
+.mysectionname{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px ;
+    gap: 20px;
+}
+.mysectionname_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contanier{
+    max-width: 1200px;
+    margin: auto;
+}
+.card_contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 400px;
+    width: 200px;
+
+}
+.img_contanier{
+    height: 250px;
+    width: 100%;
+}

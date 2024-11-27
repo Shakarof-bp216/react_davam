@@ -1,18 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from "./component/navbar/navbar";
+import Trending from "./component/trending/trending";
+import "./index.css";
 
-const func = (x) => x * x;
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <form onSubmit={} >
-      <input className='myinp' type="text" />
-      <button>Add</button>
-      </form>
+      <Navbar/>
+      <Trending/>
     </>
-  )
-}
+  );
 
-export default App
+}
+export default App;
